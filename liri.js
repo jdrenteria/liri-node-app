@@ -39,7 +39,7 @@ else{
 //START OMDB FUNCTION//
 function movieThis(movie) {
 
-    var movieQuery = movie || "Mr. Nobody"
+    var movieQuery = movie || "The Terminator"
     
     axios.get("http://www.omdbapi.com/?t=" + movieQuery + "&y=&plot=short&tomatoes=true&apikey=trilogy").then(function(response) {
       
@@ -68,13 +68,13 @@ function movieThis(movie) {
     })
   
   };
-  /////END OMDB FUNCTION/////
+  
   
   
   /////START BANDS IN TOWN FUNCTION/////
   function concertThis(concert) {
   
-    var concertQuery = concert || "'The Sign' by Ace of Base"
+    var concertQuery = concert || "Angra"
   
     axios.get("https://rest.bandsintown.com/artists/" + concertQuery + "/events?app_id=codingbootcamp").then(function(response) {
       var jsonData = response.data;
@@ -99,8 +99,7 @@ function movieThis(movie) {
         
     });
   };   
-  /////END BANDS IN TOWN FUNCTION/////
-  
+ 
   
   
   ///SPOTIFY FUNCTION/////
@@ -136,7 +135,7 @@ function movieThis(movie) {
     })
   
   };
-  /////END SPOTIFY FUNCTION/////
+ 
   
   
   /////DO WHAT IT SAYS FUNCTION/////
@@ -169,5 +168,5 @@ function movieThis(movie) {
         }
       })
     }
-  /////END DO WHAT IT SAYS FUNCTION/////
+   
   
