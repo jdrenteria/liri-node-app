@@ -9,3 +9,7 @@ Shows liri using OMDB API to call a specificMovie
 
 Shows liri using spotify to call out a specific song
 ![](images/liri-spotify-example.PNG)
+
+
+Shows liri using BandsInTown API
+![](images/BandsInTown.png)
