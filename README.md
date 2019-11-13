@@ -11,5 +11,5 @@ Shows liri using spotify to call out a specific song
 ![](images/liri-spotify-example.PNG)
 
 
-Shows liri using BandsInTown API
+Shows liri using BandsInTown API (This was done in the mac which is borrowed. Thats the reason it has a differnt name) 
 ![](images/BandsInTown.png)
